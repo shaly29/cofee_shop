@@ -254,33 +254,33 @@ header .cart-items-container .btn{
     color: #eee;
 }
 
-.about.row{
+.about .row {
     display: flex;
     align-items: center;
-    background: var(--black);
+    /* background: var(--black);  */
     flex-wrap: wrap;
 }
 
-.about .row .image{
-    flex: 1 1 45rem;
+.about .row .image {
+    flex: 1 ; 
 }
 
-.about .row .image img{
-    width: 50%;
+.about .row .image img {
+    width: 100%; 
+    max-width: 45rem; 
 }
 
-
-.about .row .content{
-    flex: 1 1 45rem;
+.about .row .content1 {
+    flex: 1; 
     padding: 2rem;
 }
 
-.about .row .content h3{
+.about .row .content1 h3 {
     font-size: 3rem;
     color: #fff;
 }
 
-.about .row .content p{
+.about .row .content1 p {
     font-size: 1.6rem;
     color: #ccc;
     padding: 1rem 0;
